@@ -1,16 +1,27 @@
-# ai_app
+# ai_app 🚀
 
-A new Flutter project.
+Flutter AI Chat Application
 
-## Getting Started
+## 📱 About
 
-This project is a starting point for a Flutter application.
+This is a Flutter project for building an AI-powered chat app similar to Gemini.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Firebase (coming soon)
+- AI Integration (coming soon)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- Authentication (Login/Register)
+- AI Chat Interface
+- Clean UI Design
+
+## 📦 Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
