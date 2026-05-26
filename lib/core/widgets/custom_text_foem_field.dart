@@ -6,7 +6,7 @@ class CustomTextFoemField extends StatefulWidget {
     required this.text,
     this.obscureText = false,
     this.controller,
-    required this.validator,
+    this.validator,
   });
 
   final String text;
@@ -23,6 +23,7 @@ class _CustomTextFoemFieldState extends State<CustomTextFoemField> {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      autovalidateMode: .onUserInteraction,
       validator: widget.validator,
       controller: widget.controller,
       obscureText: widget.obscureText && isObscured,
@@ -53,6 +54,10 @@ class _CustomTextFoemFieldState extends State<CustomTextFoemField> {
         errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: const BorderSide(color: Colors.red),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: BorderSide(color: Colors.red),
         ),
       ),
     );

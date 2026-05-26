@@ -1,0 +1,8 @@
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/janjony_ai.png
+
+  fullscreen: true
+  android_12:
+    color: "#000000"
+    image: assets/android12_native_splash/splash_android12.png

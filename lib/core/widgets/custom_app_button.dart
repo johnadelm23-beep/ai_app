@@ -12,7 +12,7 @@ class CustomAppButton extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadiusGeometry.circular(12),
         ),
-        minimumSize: Size(double.infinity, 70),
+        minimumSize: Size(double.infinity, 80),
       ),
       onPressed: onPressed,
       child: Text(
